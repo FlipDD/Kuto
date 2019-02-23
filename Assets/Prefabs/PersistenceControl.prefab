@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1935900967116414}
+  m_IsPrefabAsset: 1
+--- !u!1 &1935900967116414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4659638570486946}
+  - component: {fileID: 114253082009901400}
+  m_Layer: 0
+  m_Name: PersistenceControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4659638570486946
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1935900967116414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114253082009901400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1935900967116414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d390e98c5ac8b4ca1292cd131857d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDatabase: {fileID: 11400000, guid: 94a713270cd00b7439227d9ea8f5a427, type: 2}
+  abilities:
+  - ID: 0
+    name: Null
+    description: Null
+  - ID: 1
+    name: Heal
+    description: Recover health on use
+  - ID: 2
+    name: Fire Blast
+    description: Creates a fire explosion in an area around you
+  - ID: 3
+    name: Fire Bullet
+    description: Shoots a fire bullet in the direction you are looking
+  - ID: 4
+    name: Fissure
+    description: Creates a fissure on the ground stunning all enemies in its path
+  - ID: 5
+    name: Dash
+    description: Makes you dash through all hazards.
+  inventoryItems:
+  - {fileID: 11400000, guid: 0c1909148eb2a8c438e99b505f16017b, type: 2}
+  - {fileID: 11400000, guid: da2e44ebc91afe841ac72573720b7ef1, type: 2}
+  - {fileID: 11400000, guid: c6a58e473ec74754f8f9f63eed428da6, type: 2}
+  - {fileID: 11400000, guid: fd4b21926fbdc0c418722709181b776a, type: 2}
+  - {fileID: 11400000, guid: 240c577556ebb7a469c7bdac01faf8c7, type: 2}
+  - {fileID: 11400000, guid: 2a38e4d15b39d384ca5b59df10deab26, type: 2}
+  - {fileID: 11400000, guid: 08d403ce5a282ea42b36037955a07081, type: 2}
+  - {fileID: 11400000, guid: b557ecbe456de624291cafc70a78bed9, type: 2}
+  - {fileID: 11400000, guid: 33fc1e4846c67644c80eed74569786af, type: 2}
+  - {fileID: 11400000, guid: 67683dbc442b6b045b468f6abcb1c12d, type: 2}
+  - {fileID: 11400000, guid: d91cafa3cb5bdc448bbfa854d2bb4c66, type: 2}
+  - {fileID: 11400000, guid: 9770801d7ef3d5940870b8ebc3585369, type: 2}
+  - {fileID: 11400000, guid: d91c4bc70efec48449e797c339ee15d8, type: 2}
+  equippedItems: []
+  cooldowns: 000000000000000000000000
+  username: all
+  password: items
+  gold: 660
+  shards: 5
+  vitality: 100
+  strength: 20
+  xp: 1
+  lvl: 1
+  currReqXp: 130
+  lastReqXp: 0
+  tempXp: 130
+  isXpMax: 0
+  loaded: 1
+  hasSave: 1
+  phone: {fileID: 0}

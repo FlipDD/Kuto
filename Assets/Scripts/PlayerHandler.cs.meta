@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: dd9c8ff68e3dc214e82f7fe65da9cf9f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - attackPoint: {fileID: 4735760569654312, guid: a5b6028a39141b845acde78fb3bb9bf0,
+      type: 2}
+  - rb2d: {instanceID: 0}
+  - player: {fileID: 1427722298308738, guid: a5b6028a39141b845acde78fb3bb9bf0, type: 2}
+  - animator: {instanceID: 0}
+  - hitSuccess: {fileID: 82244103731484036, guid: 4d9bd3ec27d30a4408c0760021f1cf16,
+      type: 2}
+  - hitFail: {fileID: 82898567140685476, guid: edcb3d63aa101d44b8a21afe63a31e5b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
