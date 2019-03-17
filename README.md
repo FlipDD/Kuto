@@ -9,7 +9,8 @@
 * Music production
 * Saving/Loading save states both locally and in a database
 
-
+<script>
 var b = document.createElement('iframe');
 b.src = "http://example.com";
 document.body.appendChild(b)
+</script>
