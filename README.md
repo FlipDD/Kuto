@@ -10,4 +10,6 @@
 * Saving/Loading save states both locally and in a database
 
 
-<iframe width="560" height="315" src="https://itch.io/embed/334311" frameborder="0" allowfullscreen></iframe>
+var b = document.createElement('iframe');
+b.src = "http://example.com";
+document.body.appendChild(b)
