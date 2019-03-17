@@ -10,4 +10,4 @@
 * Saving/Loading save states both locally and in a database
 
 
-<iframe frameborder="0" src="https://itch.io/embed/334311" width="552" height="167"></iframe>
+<iframe width="560" height="315" src="https://itch.io/embed/334311" frameborder="0" allowfullscreen></iframe>
